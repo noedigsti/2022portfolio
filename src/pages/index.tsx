@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>cuong minh vu</h1>
-        <h1 className="underline bg-red-500">Welcome</h1>
+        <h1 >Welcome</h1>
       </main>
 
       <footer className={styles.footer}>
