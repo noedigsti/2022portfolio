@@ -1,8 +1,6 @@
-import Head from 'next/head';
 import NextLink from 'next/link';
 import Image from 'next/image';
-
-import Container from 'common/components/Container';
+import Container from '../common/components/Container';
 
 export default function HomePage() {
   return (
@@ -41,9 +39,9 @@ export default function HomePage() {
             various metrics across platforms like Unsplash, YouTube, GitHub, and
             more. Want to build your own? Check out my&nbsp;
             <NextLink href="/blog/fetching-data-with-swr">
-              <a className="text-gray-900 dark:text-gray-100 underline">
+              <button className="text-gray-900 dark:text-gray-100 underline">
                 blog series.
-              </a>
+              </button>
             </NextLink>
           </p>
         </div>

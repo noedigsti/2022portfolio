@@ -1,6 +1,6 @@
 import React from 'react';
-import NextLink from 'next/link';
-import Container from 'common/components/Container';
+// import NextLink from 'next/link';
+import Container from '../common/components/Container';
 
 export default function About() {
   return (
