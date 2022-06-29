@@ -42,7 +42,8 @@
 }
 
 .menuRendered {
-  opacity: 1;
+  overflow-y: auto;
+  opacity: 1; 
 }
 
 .menuRendered li {
