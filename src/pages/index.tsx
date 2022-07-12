@@ -32,7 +32,6 @@ export default function HomePage() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Featured
         </h3>
-        
         <div className="mb-8">
           <p className="text-gray-600 dark:text-gray-400 mb-4">
             This is my personal website for showcasing my work.
