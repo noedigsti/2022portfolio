@@ -11,7 +11,7 @@ export default function Projects() {
           Projects
         </h1>
         <p className="mb-4 text-gray-600 dark:text-gray-400">
-          A collection of projects I've worked on.
+          A collection of projects I&apos;ve worked on.
         </p>
         <Link href={'https://github.com/noedigsti/My-Community-Landmark'}>
           <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
