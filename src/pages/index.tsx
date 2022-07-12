@@ -12,7 +12,7 @@ export default function HomePage() {
               Cuong Minh Vu
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Developer at <span className="font-semibold">Company</span>
+              Software Engineering & Web Developing
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
               Helping developers build a faster web. Teaching about web
@@ -32,17 +32,10 @@ export default function HomePage() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Featured
         </h3>
+        
         <div className="mb-8">
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            This is my personal dashboard, built with Next.js API routes
-            deployed as serverless functions. I use this dashboard to track
-            various metrics across platforms like Unsplash, YouTube, GitHub, and
-            more. Want to build your own? Check out my&nbsp;
-            <NextLink href="/blog/fetching-data-with-swr">
-              <button className="text-gray-900 dark:text-gray-100 underline">
-                blog series.
-              </button>
-            </NextLink>
+            This is my personal website for showcasing my work.
           </p>
         </div>
       </div>
