@@ -15,8 +15,7 @@ export default function HomePage() {
               Software Engineering & Web Developing
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
-              Helping developers build a faster web. Teaching about web
-              development, serverless, and React / Next.js.
+              All things related to software engineering and web development.
             </p>
           </div>
           <div className="w-[80px] sm:w-[220px] relative mb-8 sm:mb-0 mr-auto">
