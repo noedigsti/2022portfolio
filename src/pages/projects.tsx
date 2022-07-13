@@ -13,36 +13,30 @@ export default function Projects() {
         <p className="mb-4 text-gray-600 dark:text-gray-400">
           A collection of projects I&apos;ve worked on.
         </p>
-        <Link href={'https://github.com/noedigsti/My-Community-Landmark'} passHref={true}>
-          <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
-            <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-              Landmark
-            </h3>
-            <p className="mt-1 text-gray-700 dark:text-gray-400">
-              Latest project
-            </p>
-          </a>
-        </Link>
-        <Link href={'https://github.com/noedigsti/cuongminhvu'} passHref={true}>
-          <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
-            <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-              cuongminhvu.xyz
-            </h3>
-            <p className="mt-1 text-gray-700 dark:text-gray-400">
-              Personal Full-Stack Website
-            </p>
-          </a>
-        </Link>
-        <Link href={'https://github.com/noedigsti/IGB400'} passHref={true}>
-          <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
-            <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-              Capstone Project 2
-            </h3>
-            <p className="mt-1 text-gray-700 dark:text-gray-400">
-              A mobile game
-            </p>
-          </a>
-        </Link>
+        <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
+          <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
+            Landmark
+          </h3>
+          <p className="mt-1 text-gray-700 dark:text-gray-400">
+            Latest project
+          </p>
+        </a>
+        <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
+          <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
+            cuongminhvu.xyz
+          </h3>
+          <p className="mt-1 text-gray-700 dark:text-gray-400">
+            Personal Full-Stack Website
+          </p>
+        </a>
+        <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
+          <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
+            Capstone Project 2
+          </h3>
+          <p className="mt-1 text-gray-700 dark:text-gray-400">
+            A mobile game
+          </p>
+        </a>
       </div>
     </Container>
   );
