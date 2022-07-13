@@ -7,6 +7,7 @@ import { useTheme } from 'next-themes';
 import styles from '../styles/mobile-menu.module.css';
 import cn from 'classnames';
 import MobileMenu from './MobileMenu';
+import Footer from './Footer/Footer';
 
 function NavItem({ href, text }) {
   const router = useRouter();
@@ -116,23 +117,7 @@ export default function Container(props) {
         className="flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900"
       >
         <div id="content">{children}</div>
-        <footer className="flex flex-col justify-center items-start max-w-2xl mx-auto w-full mb-8">
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <span className={styles.logo}>
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                width={72}
-                height={16}
-              />
-            </span>
-          </a>
-        </footer>
+        <Footer />
       </main>
     </div>
   );

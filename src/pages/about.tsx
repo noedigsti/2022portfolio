@@ -34,9 +34,10 @@ export default function About() {
         </h3>
         <div className="mb-8">
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            My name is Cuong Minh Vu. I am a graduate student from Queensland
-            University of Technology. I am passionate about software engineering
-            and web development.
+            My name is Cuong Minh Vu.
+            <br />I am a graduate student from Queensland University of
+            Technology. I am passionate about software engineering and web
+            development.
           </p>
         </div>
       </div>

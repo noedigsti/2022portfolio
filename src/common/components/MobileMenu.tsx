@@ -3,6 +3,7 @@ import Link from 'next/link';
 import useDelayedRender from 'use-delayed-render';
 import { useState, useEffect } from 'react';
 import styles from '../styles/mobile-menu.module.css';
+import ExternalLink from './ExternalLink';
 
 export default function MobileMenu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,134 +61,51 @@ export default function MobileMenu() {
             </li>
             <li
               className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '175ms' }}
-            >
-              <Link href="/guestbook">
-                <a className="justify-center flex w-auto pb-4">Guestbook</a>
-              </Link>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
               style={{ transitionDelay: '200ms' }}
             >
-              <Link href="/dashboard">
-                <a className="justify-center flex w-auto pb-4">Dashboard</a>
+              <Link href="/about">
+                <a className="justify-center flex w-auto pb-4">About</a>
               </Link>
             </li>
             <li
               className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
               style={{ transitionDelay: '250ms' }}
             >
-              <Link href="/blog">
-                <a className="justify-center flex w-auto pb-4">Blog</a>
-              </Link>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '275ms' }}
-            >
-              <Link href="/snippets">
-                <a className="justify-center flex w-auto pb-4">Snippets</a>
+              <Link href="/projects">
+                <a className="justify-center flex w-auto pb-4">Projects</a>
               </Link>
             </li>
             <li
               className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
               style={{ transitionDelay: '300ms' }}
             >
-              <Link href="/newsletter">
-                <a className="justify-center flex w-auto pb-4">Newsletter</a>
-              </Link>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '325ms' }}
-            >
-              <Link href="/tweets">
-                <a className="justify-center flex w-auto pb-4">Tweets</a>
+              <Link href="/resume">
+                <a className="justify-center flex w-auto pb-4">Resume</a>
               </Link>
             </li>
             <li
               className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
               style={{ transitionDelay: '350ms' }}
             >
-              <Link href="/uses">
-                <a className="justify-center flex w-auto pb-4">Uses</a>
-              </Link>
+              <ExternalLink href="https://linkedin.com/in/cuongminhvu">
+                <a className="justify-center flex w-auto pb-4">LinkedIn</a>
+              </ExternalLink>
             </li>
             <li
               className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
               style={{ transitionDelay: '375ms' }}
             >
-              <a
-                className="justify-center flex w-auto pb-12"
-                href="http://github.com/noedigsti"
-              >
-                <svg
-                  className="w-12 h-12"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>GitHub</title>
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-              </a>
-              <a
-                className="justify-center flex w-auto pb-12"
-                href="http://github.com/noedigsti"
-              >
-                <svg
-                  className="w-12 h-12"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>GitHub</title>
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-              </a>
-              <a
-                className="justify-center flex w-auto pb-12"
-                href="http://github.com/noedigsti"
-              >
-                <svg
-                  className="w-12 h-12"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>GitHub</title>
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-              </a>
-              <a
-                className="justify-center flex w-auto pb-12"
-                href="http://github.com/noedigsti"
-              >
-                <svg
-                  className="w-12 h-12"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>GitHub</title>
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-              </a>
-              <a
-                className="justify-center flex w-auto pb-12"
-                href="http://github.com/noedigsti"
-              >
-                <svg
-                  className="w-12 h-12"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>GitHub</title>
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-              </a>
+              <ExternalLink href="https://github.com/noedigsti">
+                <a className="justify-center flex w-auto pb-4">GitHub</a>
+              </ExternalLink>
+            </li>
+            <li
+              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+              style={{ transitionDelay: '400ms' }}
+            >
+              <ExternalLink href="https://twitter.com/noedigsti_">
+                <a className="justify-center flex w-auto pb-4">Twitter</a>
+              </ExternalLink>
             </li>
             <div className="py-20"></div>
           </ul>
