@@ -13,7 +13,7 @@ export default function Projects() {
         <p className="mb-4 text-gray-600 dark:text-gray-400">
           A collection of projects I&apos;ve worked on.
         </p>
-        <Link href={'https://github.com/noedigsti/My-Community-Landmark'}>
+        <Link href={'https://github.com/noedigsti/My-Community-Landmark'} passHref={true}>
           <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
             <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
               Landmark
@@ -23,7 +23,7 @@ export default function Projects() {
             </p>
           </a>
         </Link>
-        <Link href={'https://github.com/noedigsti/cuongminhvu'}>
+        <Link href={'https://github.com/noedigsti/cuongminhvu'} passHref={true}>
           <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
             <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
               cuongminhvu.xyz
@@ -33,7 +33,7 @@ export default function Projects() {
             </p>
           </a>
         </Link>
-        <Link href={'https://github.com/noedigsti/IGB400'}>
+        <Link href={'https://github.com/noedigsti/IGB400'} passHref={true}>
           <a className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900">
             <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
               Capstone Project 2
