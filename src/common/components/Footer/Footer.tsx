@@ -22,6 +22,11 @@ export default function Footer() {
               Projects
             </a>
           </Link>
+          <Link href="/resume">
+            <a className="text-gray-500 hover:text-gray-600 transition">
+              Resume
+            </a>
+          </Link>
         </div>
         <div className="flex flex-col space-y-4">
           <ExternalLink href="https://linkedin.com/in/cuongminhvu">
