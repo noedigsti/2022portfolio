@@ -26,9 +26,7 @@ export default function MobileMenu() {
   }
 
   useEffect(() => {
-    return function cleanup() {
-      document.body.style.overflow = '';
-    };
+    document.body.style.overflow = '';
   }, []);
 
   return (
@@ -43,79 +41,91 @@ export default function MobileMenu() {
         <CrossIcon data-hide={!isMenuOpen} />
       </button>
       {isMenuMounted && (
-        <>
-          <ul
-            className={cn(
-              styles.menu,
-              'flex flex-col absolute bg-gray-100 dark:bg-gray-900',
-              isMenuRendered && styles.menuRendered
-            )}
+        <ul
+          className={cn(
+            styles.menu,
+            'flex flex-col absolute bg-gray-100 dark:bg-gray-900',
+            isMenuRendered && styles.menuRendered
+          )}
+        >
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '150ms' }}
           >
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '150ms' }}
-            >
-              <Link href="/">
-                <a className="justify-center flex w-auto pb-4">Home</a>
-              </Link>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '200ms' }}
-            >
-              <Link href="/about">
-                <a className="justify-center flex w-auto pb-4">About</a>
-              </Link>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '250ms' }}
-            >
-              <Link href="/projects">
-                <a className="justify-center flex w-auto pb-4">Projects</a>
-              </Link>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '300ms' }}
-            >
-              <Link href="/resume">
-                <a className="justify-center flex w-auto pb-4">Resume</a>
-              </Link>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '350ms' }}
-            >
-              <ExternalLink href="https://linkedin.com/in/cuongminhvu">
-                <a className="justify-center flex w-auto pb-4">LinkedIn</a>
-              </ExternalLink>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '375ms' }}
-            >
-              <ExternalLink href="https://github.com/noedigsti">
-                <a className="justify-center flex w-auto pb-4">GitHub</a>
-              </ExternalLink>
-            </li>
-            <li
-              className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
-              style={{ transitionDelay: '400ms' }}
-            >
-              <ExternalLink href="https://twitter.com/noedigsti_">
-                <a className="justify-center flex w-auto pb-4">Twitter</a>
-              </ExternalLink>
-            </li>
-            <div className="py-20"></div>
-          </ul>
-        </>
+            <Link href="/">
+              <a href="#Home" className="justify-center flex w-auto pb-4">
+                Home
+              </a>
+            </Link>
+          </li>
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '200ms' }}
+          >
+            <Link href="/about">
+              <a href="#About" className="justify-center flex w-auto pb-4">
+                About
+              </a>
+            </Link>
+          </li>
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '250ms' }}
+          >
+            <Link href="/projects">
+              <a href="#Projects" className="justify-center flex w-auto pb-4">
+                Projects
+              </a>
+            </Link>
+          </li>
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '300ms' }}
+          >
+            <Link href="/resume">
+              <a href="#Resume" className="justify-center flex w-auto pb-4">
+                Resume
+              </a>
+            </Link>
+          </li>
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '350ms' }}
+          >
+            <ExternalLink href="https://linkedin.com/in/cuongminhvu">
+              <a href="#LinkedIn" className="justify-center flex w-auto pb-4">
+                LinkedIn
+              </a>
+            </ExternalLink>
+          </li>
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '375ms' }}
+          >
+            <ExternalLink href="https://github.com/noedigsti">
+              <a href="#GitHub" className="justify-center flex w-auto pb-4">
+                GitHub
+              </a>
+            </ExternalLink>
+          </li>
+          <li
+            className="border-b border-gray-300 dark:border-gray-700 text-gray-900 dark:text-gray-100 text-sm font-semibold"
+            style={{ transitionDelay: '400ms' }}
+          >
+            <ExternalLink href="https://twitter.com/noedigsti_">
+              <a href="#Twitter" className="justify-center flex w-auto pb-4">
+                Twitter
+              </a>
+            </ExternalLink>
+          </li>
+          <div className="py-20" />
+        </ul>
       )}
     </>
   );
 }
 
-function MenuIcon(props: JSX.IntrinsicElements['svg']) {
+function MenuIcon() {
   return (
     <svg
       className="h-5 w-5 absolute text-gray-900 dark:text-gray-100"
@@ -123,7 +133,6 @@ function MenuIcon(props: JSX.IntrinsicElements['svg']) {
       height="20"
       viewBox="0 0 20 20"
       fill="none"
-      {...props}
     >
       <path
         d="M2.5 7.5H17.5"
@@ -143,7 +152,7 @@ function MenuIcon(props: JSX.IntrinsicElements['svg']) {
   );
 }
 
-function CrossIcon(props: JSX.IntrinsicElements['svg']) {
+function CrossIcon() {
   return (
     <svg
       className="h-5 w-5 absolute text-gray-900 dark:text-gray-100"
@@ -156,7 +165,6 @@ function CrossIcon(props: JSX.IntrinsicElements['svg']) {
       strokeLinejoin="round"
       fill="none"
       shapeRendering="geometricPrecision"
-      {...props}
     >
       <path d="M18 6L6 18" />
       <path d="M6 6l12 12" />

@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
-import styles from '../styles/mobile-menu.module.css';
 import cn from 'classnames';
+import styles from '../styles/mobile-menu.module.css';
 import MobileMenu from './MobileMenu';
 import Footer from './Footer/Footer';
 
@@ -16,6 +16,7 @@ function NavItem({ href, text }) {
   return (
     <NextLink href={href}>
       <a
+        href="#navItem"
         className={cn(
           isActive
             ? 'font-semibold text-gray-800 dark:text-gray-200'
