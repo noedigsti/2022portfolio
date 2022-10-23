@@ -64,7 +64,7 @@ export default function Projects() {
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-        ></iframe>
+        />
         <br />
         <h1 className="text-3xl md:text-3xl tracking-tight mb-4 text-black dark:text-white">
           Buddy&apos;s Adventure
