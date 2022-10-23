@@ -118,7 +118,7 @@ export default function Projects() {
         />
         <Image
           width={720}
-          height={400}
+          height={900}
           src={'/gallery/Buddys-Adventure-07.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
@@ -189,7 +189,7 @@ export default function Projects() {
         />
         <Image
           width={720}
-          height={400}
+          height={720}
           src={'/gallery/shmup-developer-1.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
