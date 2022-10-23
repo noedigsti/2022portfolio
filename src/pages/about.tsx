@@ -13,11 +13,8 @@ export default function About() {
               Cuong Minh Vu
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Software Engineering & Web Developing
+              Software Engineer, Game Developer, Technology Enthusiast
             </h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-16">
-              All things related to software engineering and web development.
-            </p>
           </div>
           <div className="w-[80px] sm:w-[220px] relative mb-8 sm:mb-0 mr-auto">
             <Image
@@ -35,9 +32,8 @@ export default function About() {
         <div className="mb-8">
           <p className="text-gray-600 dark:text-gray-400 mb-4">
             My name is Cuong Minh Vu.
-            <br />I am a graduate student from Queensland University of
-            Technology. I am passionate about software engineering and web
-            development.
+            <br />I am a Graduate student from Queensland University of
+            Technology.
           </p>
         </div>
       </div>
