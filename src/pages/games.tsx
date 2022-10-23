@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 // import NextLink from 'next/link';
 import Container from '../common/components/Container';
 
@@ -38,19 +39,19 @@ export default function Projects() {
           A 3D, side-scrolling mobile platformer where you play as a brave doggo
           in a shiny armor who fights evil slimes.
         </p>
-        <img
+        <Image
           src={'/gallery/Doggo-Lets-Go.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Doggo-Lets-Go-01.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Doggo-Lets-Go-02.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Doggo-Lets-Go-03.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
@@ -71,35 +72,35 @@ export default function Projects() {
         <p className="mb-4 text-gray-600 dark:text-gray-400">
           An interactive arcade game for special needs children on PC.
         </p>
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-01.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-02.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-03.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-04.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-05.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-06.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-07.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/Buddys-Adventure-08.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
@@ -110,51 +111,51 @@ export default function Projects() {
         <p className="mb-4 text-gray-600 dark:text-gray-400">
           Misc. of game prototypes and demos of various gameplay mechanics.
         </p>
-        <img
+        <Image
           src={'/gallery/BurgerCop-developer-1.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/BurgerCop-developer-2.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/BurgerCop-developer-3.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/BurgerCop-developer-4.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/BurgerCop-developer-5.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/BurgerCop-developer-6.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/shmup-banner.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/shmup-developer-1.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/shmup-developer-2.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/shmup-developer-3.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/shmup-developer-4.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
-        <img
+        <Image
           src={'/gallery/strategy-game-concept.gif'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
