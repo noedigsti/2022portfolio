@@ -11,7 +11,7 @@ export default function Projects() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Games
         </h1>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">
+        <p className="mb-4 text-gray-720 dark:text-gray-400">
           A collection of game projects I&apos;ve worked on.
         </p>
         <a
@@ -29,29 +29,37 @@ export default function Projects() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           Gallery
         </h1>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">
+        <p className="mb-4 text-gray-720 dark:text-gray-400">
           Screenshots, footages and other media of my games.
         </p>
         <h1 className="text-3xl md:text-3xl tracking-tight mb-4 text-black dark:text-white">
           Doggo Let&apos;s Go
         </h1>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">
+        <p className="mb-4 text-gray-720 dark:text-gray-400">
           A 3D, side-scrolling mobile platformer where you play as a brave doggo
           in a shiny armor who fights evil slimes.
         </p>
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Doggo-Lets-Go.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Doggo-Lets-Go-01.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Doggo-Lets-Go-02.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Doggo-Lets-Go-03.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
@@ -69,95 +77,165 @@ export default function Projects() {
         <h1 className="text-3xl md:text-3xl tracking-tight mb-4 text-black dark:text-white">
           Buddy&apos;s Adventure
         </h1>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">
+        <p className="mb-4 text-gray-720 dark:text-gray-400">
           An interactive arcade game for special needs children on PC.
         </p>
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-01.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-02.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-03.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-04.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-05.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-06.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-07.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/Buddys-Adventure-08.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
+        />
+        <iframe
+          className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Tw8xTbjFJso"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         />
         <br />
         <h1 className="text-3xl md:text-3xl tracking-tight mb-4 text-black dark:text-white">
           Other Projects
         </h1>
-        <p className="mb-4 text-gray-600 dark:text-gray-400">
+        <p className="mb-4 text-gray-720 dark:text-gray-400">
           Misc. of game prototypes and demos of various gameplay mechanics.
         </p>
         <Image
+          width={720}
+          height={400}
           src={'/gallery/BurgerCop-developer-1.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/BurgerCop-developer-2.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/BurgerCop-developer-3.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/BurgerCop-developer-4.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/BurgerCop-developer-5.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/BurgerCop-developer-6.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/shmup-banner.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/shmup-developer-1.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/shmup-developer-2.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/shmup-developer-3.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/shmup-developer-4.webp'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
         />
         <Image
+          width={720}
+          height={400}
           src={'/gallery/strategy-game-concept.gif'}
           className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
+        />
+        <iframe
+          className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/-s-ELXU36xE"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+        <iframe
+          className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jxp8hiwqnaI"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
         />
       </div>
     </Container>
