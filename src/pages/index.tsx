@@ -12,7 +12,17 @@ export default function HomePage() {
               Cuong Minh Vu
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Software Engineer, Game Developer, Technology Enthusiast
+              <ul>
+                <li>
+                  <i>Software Engineer</i>
+                </li>
+                <li>
+                  <i>Game Developer</i>
+                </li>
+                <li>
+                  <i>Technology Enthusiast</i>
+                </li>
+              </ul>
             </h2>
           </div>
           <div className="w-[80px] sm:w-[220px] relative mb-8 sm:mb-0 mr-auto">
@@ -24,6 +34,16 @@ export default function HomePage() {
               className="rounded-full"
             />
           </div>
+        </div>
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
+          Hello 👋
+        </h3>
+        <div className="mb-8">
+          <p className="text-gray-600 dark:text-gray-400 mb-4">
+            My name is Cuong Minh Vu.
+            <br />I am a Graduate student from Queensland University of
+            Technology.
+          </p>
         </div>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Featured

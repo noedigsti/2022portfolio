@@ -13,7 +13,17 @@ export default function About() {
               Cuong Minh Vu
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Software Engineer, Game Developer, Technology Enthusiast
+              <ul>
+                <li>
+                  <i>Software Engineer</i>
+                </li>
+                <li>
+                  <i>Game Developer</i>
+                </li>
+                <li>
+                  <i>Technology Enthusiast</i>
+                </li>
+              </ul>
             </h2>
           </div>
           <div className="w-[80px] sm:w-[220px] relative mb-8 sm:mb-0 mr-auto">

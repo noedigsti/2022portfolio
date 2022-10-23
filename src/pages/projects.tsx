@@ -11,7 +11,7 @@ export default function Projects() {
           Projects
         </h1>
         <p className="mb-4 text-gray-600 dark:text-gray-400">
-          A collection of projects I&apos;ve worked on.
+          A collection of software projects I&apos;ve worked on.
         </p>
         <a
           href={'https://github.com/noedigsti/My-Community-Landmark'}
@@ -34,15 +34,6 @@ export default function Projects() {
           <p className="mt-1 text-gray-700 dark:text-gray-400">
             Personal Full-Stack Website
           </p>
-        </a>
-        <a
-          href={'https://github.com/noedigsti/IGB400'}
-          className="border border-grey-200 dark:border-gray-800 rounded p-4 w-full bg-white dark:bg-gray-900"
-        >
-          <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
-            Capstone Project 2
-          </h3>
-          <p className="mt-1 text-gray-700 dark:text-gray-400">A mobile game</p>
         </a>
       </div>
     </Container>

@@ -33,6 +33,14 @@ export default function Footer() {
               Projects
             </a>
           </Link>
+          <Link href="/games">
+            <a
+              href="#Games"
+              className="text-gray-500 hover:text-gray-600 transition"
+            >
+              Games
+            </a>
+          </Link>
           <Link href="/resume">
             <a
               href="#Resume"
