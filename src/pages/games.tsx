@@ -26,7 +26,7 @@ export default function Projects() {
           </p>
         </a>
         <br />
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
+        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mt-8 mb-4 text-black dark:text-white">
           Gallery
         </h1>
         <p className="mb-4 text-gray-720 dark:text-gray-400">
@@ -74,7 +74,7 @@ export default function Projects() {
           allowFullScreen
         />
         <br />
-        <h1 className="text-3xl md:text-3xl tracking-tight mb-4 text-black dark:text-white">
+        <h1 className="text-3xl md:text-3xl tracking-tight mt-8 mb-4 text-black dark:text-white">
           Buddy&apos;s Adventure
         </h1>
         <p className="mb-4 text-gray-720 dark:text-gray-400">
@@ -139,7 +139,7 @@ export default function Projects() {
           allowFullScreen
         />
         <br />
-        <h1 className="text-3xl md:text-3xl tracking-tight mb-4 text-black dark:text-white">
+        <h1 className="text-3xl md:text-3xl tracking-tight mt-8 mb-4 text-black dark:text-white">
           Other Projects
         </h1>
         <p className="mb-4 text-gray-720 dark:text-gray-400">
